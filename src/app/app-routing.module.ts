@@ -32,6 +32,7 @@ const routes: Routes = [
   { path: 'toggle', loadChildren: './pages/toggle/toggle.module#TogglePageModule' },
   { path: 'toolbar', loadChildren: './pages/toolbar/toolbar.module#ToolbarPageModule' },
   { path: 'showmodal', loadChildren: './pages/showmodal/showmodal.module#ShowmodalPageModule' },
+  { path: 'slide', loadChildren: './pages/slide/slide.module#SlidePageModule' },
 ];
 
 @NgModule({
